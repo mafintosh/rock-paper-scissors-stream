@@ -1,6 +1,6 @@
 {
   "name": "rock-paper-scissors-stream",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Streaming rock, paper scissors game",
   "main": "index.js",
   "scripts": {
