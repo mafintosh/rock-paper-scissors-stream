@@ -6,6 +6,9 @@ Streaming rock, paper scissors game
 npm install -g rock-paper-scissors-stream
 ```
 
+[![build status](http://img.shields.io/travis/mafintosh/rock-paper-scissors-stream.svg?style=flat&branch=master)](http://travis-ci.org/mafintosh/rock-paper-scissors-stream)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+
 ## Usage
 
 rock-paper-scissors-stream allows you to play rock, paper, scissors with a friend over any transport.
