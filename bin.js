@@ -12,7 +12,7 @@ if (!/^(rock|paper|scissors)$/i.test(choice)) {
 var stream = rps(choice)
 
 stream.on('tie', function (you, opponent) {
-  onend('Tied. You both choose %s', you, opponent)
+  onend('Tied. You both choose %s', you)
 })
 
 stream.on('win', function (you, opponent) {
