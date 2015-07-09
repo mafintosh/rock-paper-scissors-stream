@@ -16,6 +16,7 @@ module.exports = function (choice) {
   var parse = ndjson.parse()
 
   parse.once('data', function (remoteProof) {
+    if (remoteProof === proof) return stream.destroy(new Error('Remote sent invalid proof'))
     serialize.end({choice: choice, nounce: nounce.toString('hex')})
     parse.once('data', function (data) {
       if (weapons.indexOf(data.choice) === -1) {
