@@ -1,0 +1,50 @@
+*{  margin:0;
+    padding:0;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box}
+    ::selection{background:#fb9fe5;
+    text-shadow:none;
+    }
+    a{
+        color:#0088CC;
+        text-decoration:none;
+        outline:0;
+    }
+    a:hover
+    {
+        color:#005580
+    }
+    a img{
+        border:none;
+        }
+    img{
+        max-width:100%;
+        }
+    html{   
+            font-size:100%;
+        }
+    body{   
+            font-family:"Helvetica Neue",sans-serif;
+            padding:5%;
+            background:rgba(185, 182, 182, 0.3);
+            color:rgba(0,0,0,.7);
+            font-size:22px;
+            font-weight:bold;
+        }
+
+    h1{
+        font-family:"Helvetica Neue",sans-serif;
+        font-size: 50px;
+        font-weight:bold;
+        color:rgba(0,0,0,.6);
+        margin-bottom:1em;
+    }
+
+        .game{padding:2em;
+            background:#eee;
+    }
+    #idd{
+        height:500px;
+        align-items:center;
+    }
